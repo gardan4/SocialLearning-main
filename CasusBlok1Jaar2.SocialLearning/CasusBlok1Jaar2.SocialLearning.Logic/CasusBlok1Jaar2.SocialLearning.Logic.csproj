@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CasusBlok1Jaar2.SocialLearning.DALInterface\CasusBlok1Jaar2.SocialLearning.DALInterface.csproj" />
+    <ProjectReference Include="..\CasusBlok1Jaar2.SocialLearning.DAL\CasusBlok1Jaar2.SocialLearning.DAL.csproj" />
+    <ProjectReference Include="..\CasusBlok1Jaar2.SocialLearning.Entities\CasusBlok1Jaar2.SocialLearning.Entities.csproj" />
+    <ProjectReference Include="..\CasusBlok1Jaar2.SocialLearning.Global\CasusBlok1Jaar2.SocialLearning.Global.csproj" />
+  </ItemGroup>
+
+</Project>

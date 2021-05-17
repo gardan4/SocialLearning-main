@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="layout.Master.cs" Inherits="CasusBlok1Jaar2.SocialLearning.Layout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Social Learning - <%=Page.Title %></title>
+    <link href="styles/masterPageLayout.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--Header nav bar--%>
+        <div id="header">
+            <ul>
+                <li><asp:LinkButton runat="server" OnClick="SignOff" >Logout</asp:LinkButton></li>
+                <!-- !!!NOT FUNCTIONAL YET!!! <li><a href="Profile.aspx">Profile</a></li> -->
+                <li><a <%= Page.Title == "Your Boards" ? "class=\"active\" " : "" %> href="YourBoards.aspx">Your Boards</a></li>
+                <li><a <%= Page.Title == "Board Overview" ? "class=\"active\" " : "" %> href="AllBoards.aspx">All boards</a></li>
+                <li><a <%= Page.Title == "Home" ? "class=\"active\" " : "" %> href="Home.aspx">Home</a></li>
+                <li class="name" style="float: left;"><a href="Home.aspx" id="logo">AppNaam of plaatje</a></li>
+            </ul>
+        </div>
+
+        <%-- Page content place holder --%>
+        <div id="page-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderPageContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0006: Metadata file 'D:\WebApplicationSocialLearning\CasusBlok1Jaar2.SocialLearning\CasusBlok1Jaar2.SocialLearning.Logic\bin\Debug\netstandard2.0\CasusBlok1Jaar2.SocialLearning.Logic.dll' could not be found
+dotnet_diagnostic.CS0006.severity = none

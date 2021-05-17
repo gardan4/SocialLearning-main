@@ -1,0 +1,93 @@
+﻿body {
+    background-color: #dae0e6;
+}
+
+.allBoards {
+    margin: 30px 7.5% 50px 7.5%;
+}
+
+.section {
+    text-align: center;
+    margin: 2.5%;
+    border: 1px solid grey;
+    border-radius: 8px;
+    float: left;
+    width: 28%;
+    min-width: 250px;
+    background-color: white;
+    height: 195px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    .section .postTitle {
+        border: 0px;
+        border-radius: 8px;
+        background-color: #e6e6e6;
+        margin: 15px 10px;
+        padding: 5px;
+        text-align: left;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: Verdana;
+    }
+
+    .section .postContent {
+        border: 0px;
+        border-radius: 8px;
+        background-color: #e6e6e6;
+        padding: 5px;
+        margin: 10px 10px;
+        text-align: left;
+        font-family: Verdana;
+        overflow: hidden;
+        height: 100px;
+    }
+
+#newBoard {
+    border: 0px;
+    border-radius: 8px;
+    background-color: #e6e6e6;
+    margin: 15px 10px;
+    padding: 60px 5px 5px 5px;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Verdana;
+    text-align: center;
+    height: 105px;
+}
+
+    #newBoard a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+.postTitle {
+    position: relative;
+    overflow: hidden
+}
+
+    .postTitle a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+.btnLeave {
+    position: absolute;
+    right: 5px;
+    padding: 6px 10px 6px 10px;
+    background-color: #3c3d4a;
+    border: 2px solid #3c3d4a;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    .btnLeave:hover {
+        transition-duration: 0.4s;
+        background-color: white;
+        color: black;
+    }

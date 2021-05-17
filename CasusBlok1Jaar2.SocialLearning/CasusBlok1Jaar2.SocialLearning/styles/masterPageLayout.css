@@ -1,0 +1,71 @@
+﻿body {
+    font-family: verdana;
+    margin: 0px;
+}
+
+div {
+    display: block;
+}
+
+#header {
+    border-bottom: 1px solid grey;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 4% 0px 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    border-right: 1px solid #bbb;
+    margin: 10px 4px 10px 4px;
+}
+
+    li:first-child {
+        border-right: none;
+    }
+
+.name {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+    li a:hover:not(.active) {
+        color: black;
+    }
+
+.active {
+    color: black;
+}
+
+#footer {
+    background-color: #C40D42;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
+#logo {
+    font-family: 'Teko';
+    font-stretch: expanded;
+    font-weight: 900;
+    background-image: url('https://media.giphy.com/media/3oKIPaGG4PDQgQDFZe/giphy.gif');
+    background-position: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}

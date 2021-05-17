@@ -1,0 +1,74 @@
+﻿body {
+    background-color: #dae0e6;
+}
+
+.posts {
+    height: 80vh;
+    width: 39%;
+    overflow: auto;
+    position: relative;
+    left: 29%;
+}
+
+.section {
+    text-align: center;
+    margin: 20px 1% 20px 1%;
+    border: 1px solid grey;
+    border-radius: 8px;
+    background-color: white;
+    height: 300px;
+}
+
+    .section .postTitle {
+        margin: 15px 10px;
+        padding: 5px;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: Verdana;
+        height: 260px;
+    }
+
+    .section .element {
+        margin: 50px 15%;
+        padding: 5px;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: Verdana;
+    }
+
+.tbSearch {
+    padding: 6px 15% 6px 15%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    height: 20px;
+}
+
+.btnSearch {
+    padding: 6px 40px 6px 40px;
+    background-color: #3c3d4a;
+    border: 2px solid #3c3d4a;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    .btnSearch:hover {
+        transition-duration: 0.4s;
+        background-color: white;
+        color: black;
+    }
+
+#newAccount {
+    border-top: 1px solid grey;
+    padding: 0 20% 0 85px;
+}
+
+#bar {
+    padding: 0 15% 0 80px;
+}
+

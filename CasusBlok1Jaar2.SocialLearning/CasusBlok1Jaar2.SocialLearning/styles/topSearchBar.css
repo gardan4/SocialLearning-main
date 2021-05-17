@@ -1,0 +1,49 @@
+﻿.searchBar {
+    margin: 50px 10% 50px 10%;
+    text-align: center;
+}
+
+    .searchBar .pageName {
+        float: left;
+    }
+
+    .searchBar .searchElements {
+        right: 10px;
+        text-align: right;
+    }
+
+.pageName {
+    font-weight: 600;
+    font-size: 30px;
+    font-family: Verdana;
+}
+
+.tbSearch {
+    padding: 6px 3px 6px 3px;
+    border: 1px solid #bbb;
+    border-radius: 15px;
+    width: 300px;
+    height: 20px;
+}
+
+.tbSearch:focus {
+    outline: none;
+}
+
+.btnSearch {
+    padding: 6px 40px 6px 40px;
+    background-color: #3c3d4a;
+    border: 2px solid #3c3d4a;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    .btnSearch:hover {
+        transition-duration: 0.4s;
+        background-color: white;
+        color: black;
+    }

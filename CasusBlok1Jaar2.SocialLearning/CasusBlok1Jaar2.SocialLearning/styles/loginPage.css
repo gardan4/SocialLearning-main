@@ -1,0 +1,61 @@
+﻿body {
+    background-color: #dae0e6;
+}
+.loginForm {
+    text-align: center;
+    margin: 15% 0% 5% 30%;
+}
+
+.logo {
+    float: left;
+}
+
+.section {
+    background-color: white;
+    text-align: center;
+    border: 0px solid;
+    border-radius: 8px;
+    float: left;
+    box-shadow: 0px 3px 5px 0px grey;
+}
+
+    .section .element {
+        margin: 15px 10px;
+        padding: 5px;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: Verdana;
+    }
+
+.tbSearch {
+    padding: 6px 3px 6px 3px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    width: 300px;
+    height: 20px;
+}
+
+.btnSearch {
+    padding: 6px 40px 6px 40px;
+    background-color: #3c3d4a;
+    border: 2px solid #3c3d4a;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+    .btnSearch:hover {
+        transition-duration: 0.4s;
+        background-color: white;
+        color: black;
+    }
+
+#newAccount {
+    border-top: 1px solid grey;
+    padding: 0 15% 0 15%;    
+}
